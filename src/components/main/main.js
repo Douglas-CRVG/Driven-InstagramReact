@@ -4,7 +4,7 @@ export default function Main() {
   return (
     <main>
       <Timeline />
-      <Aside />
+      <Aside image="Spike.jpg" username="Spike" name="Evan Daniels" />
     </main>
   );
 }
