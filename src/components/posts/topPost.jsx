@@ -5,7 +5,7 @@ export default function TopPost(props){
     } = props;
 
     return (
-        <div class="top-post">
+        <div className="top-post">
             <div>
                 <img src={`assets/${image}`} alt={name}></img>
                 <strong>{name}</strong>

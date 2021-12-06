@@ -3,7 +3,7 @@ import Stories from "../stories/stories";
 
 export default function Timeline(){
     return(
-        <div class="timeline">
+        <div className="timeline">
             <Stories />
             <Posts />
         </div>

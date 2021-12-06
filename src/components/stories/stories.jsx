@@ -45,15 +45,16 @@ export default function Stories() {
 	];
 
 	return (
-    <div class="stories">
-		{stories.map(story =>{
+    <div className="stories">
+		{stories.map((story, i) =>{
 			const {
 				img,
 				name
 			} = story;
+			console.log(i)
 
 			return(
-				<Story image={img} name={name} />
+				<Story key={i} image={img} name={name} />
 			)
 		})}
 		<ion-icon name="chevron-forward-circle"></ion-icon>

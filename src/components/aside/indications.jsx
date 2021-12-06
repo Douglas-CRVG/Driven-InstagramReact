@@ -31,7 +31,7 @@ export default function Indications() {
     ];
     
     return (
-        <div class="indications">
+        <div className="indications">
             <Title />
             {indications.map((indication, id) => {
             const {

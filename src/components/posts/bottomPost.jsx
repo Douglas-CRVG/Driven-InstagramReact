@@ -5,8 +5,8 @@ export default function BottomPost(props){
         qntLikes
     } = props;
     return (
-        <div class="bottom-post">
-            <div class="menu-post">
+        <div className="bottom-post">
+            <div className="menu-post">
                 <div>
                     <ion-icon name="heart-outline"></ion-icon>
                     <ion-icon name="chatbubble-outline"></ion-icon>
@@ -14,7 +14,7 @@ export default function BottomPost(props){
                 </div>
                 <ion-icon name="bookmark-outline"></ion-icon>
             </div>
-            <div class="like">
+            <div className="like">
                 <img src={`assets/${imageLike}`} alt={nameLike}></img> Curtido por
                 <strong>{nameLike}</strong> e <strong>outras {qntLikes} pessoas</strong>
             </div>

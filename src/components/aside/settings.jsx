@@ -1,6 +1,6 @@
 export default function Settings() {
     return (
-        <div class="settings">
+        <div className="settings">
             <p>
             Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos •
             Localizações • Contas mais relevantes • Hashtags • Idioma

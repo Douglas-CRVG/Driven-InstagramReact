@@ -6,7 +6,7 @@ export default function User(props){
     } = props;
 
     return (
-        <div class="user">
+        <div className="user">
             <img src={`assets/${image}`}></img>
             <div>
             <p>{username}</p>

@@ -15,7 +15,7 @@ export default function Post(props) {
     } = props;
 
     return (
-        <div class="post">
+        <div className="post">
             <TopPost name={name} image={image} />
             <Media media={media} typeMedia={typeMedia} />
             <BottomPost imageLike={imageLike} nameLike={nameLike} qntLikes={qntLikes} />

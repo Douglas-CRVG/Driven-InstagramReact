@@ -10,7 +10,7 @@ export default function Aside(props) {
 	} = props;
 
 	return (
-		<aside class="sidebar">
+		<aside className="sidebar">
 			<User image={image} username={username} name={name} />
 			<Indications />
 			<Settings />
